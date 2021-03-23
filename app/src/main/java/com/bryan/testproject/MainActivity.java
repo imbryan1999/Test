@@ -12,5 +12,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.i("TAG", "onCreate: Code from master branch.");
+        Log.d("TAG", "onCreate: Code from branch2");
     }
 }
